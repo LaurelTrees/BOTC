@@ -46,30 +46,157 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Story Lines\Level1Story.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Story Lines\Level1Story.Designer.cs">
+      <DependentUpon>Level1Story.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Story Lines\Level2Story.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Story Lines\Level2Story.Designer.cs">
+      <DependentUpon>Level2Story.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Story Lines\Level3Story.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Story Lines\Level3Story.Designer.cs">
+      <DependentUpon>Level3Story.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Story Lines\Level4Story.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Story Lines\Level4Story.Designer.cs">
+      <DependentUpon>Level4Story.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Levels\Division4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levels\Division4.Designer.cs">
+      <DependentUpon>Division4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Levels\Addition1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levels\Addition1.Designer.cs">
+      <DependentUpon>Addition1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation Screens\LevelSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation Screens\LevelSelect.Designer.cs">
+      <DependentUpon>LevelSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Levels\Subtraction2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levels\Subtraction2.Designer.cs">
+      <DependentUpon>Subtraction2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Levels\Multiplication3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Levels\Multiplication3.Designer.cs">
+      <DependentUpon>Multiplication3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level End Screens\LoseScreenAddition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level End Screens\LoseScreenAddition.Designer.cs">
+      <DependentUpon>LoseScreenAddition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level End Screens\LoseScreenSubtraction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level End Screens\LoseScreenSubtraction.Designer.cs">
+      <DependentUpon>LoseScreenSubtraction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level End Screens\LoseScreenMultiplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level End Screens\LoseScreenMultiplication.Designer.cs">
+      <DependentUpon>LoseScreenMultiplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Level End Screens\LoseScreenDivision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level End Screens\LoseScreenDivision.Designer.cs">
+      <DependentUpon>LoseScreenDivision.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Level End Screens\WinScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level End Screens\WinScreen.Designer.cs">
+      <DependentUpon>WinScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation Screens\StartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation Screens\StartScreen.Designer.cs">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Story Lines\Level1Story.resx">
+      <DependentUpon>Level1Story.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Story Lines\Level2Story.resx">
+      <DependentUpon>Level2Story.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Story Lines\Level3Story.resx">
+      <DependentUpon>Level3Story.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Story Lines\Level4Story.resx">
+      <DependentUpon>Level4Story.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\Division4.resx">
+      <DependentUpon>Division4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\Addition1.resx">
+      <DependentUpon>Addition1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigation Screens\LevelSelect.resx">
+      <DependentUpon>LevelSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\Multiplication3.resx">
+      <DependentUpon>Multiplication3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Levels\Subtraction2.resx">
+      <DependentUpon>Subtraction2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level End Screens\LoseScreenAddition.resx">
+      <DependentUpon>LoseScreenAddition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level End Screens\LoseScreenSubtraction.resx">
+      <DependentUpon>LoseScreenSubtraction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level End Screens\LoseScreenMultiplication.resx">
+      <DependentUpon>LoseScreenMultiplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level End Screens\LoseScreenDivision.resx">
+      <DependentUpon>LoseScreenDivision.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="Level End Screens\WinScreen.resx">
+      <DependentUpon>WinScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigation Screens\StartScreen.resx">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -78,6 +205,90 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floatingLing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartScreenFloatingLing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soloLing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lingLeena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lingLauren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lingLaurenLeena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lingLeenaLauren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lingBoran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deathScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ling3Lives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ling0Lives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleLeena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ling1Lives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ling2Lives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ling1Life.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleLauren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleLeenaLaureen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleBoran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundTrack 1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BossMusic SoundTrack 1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundTrack2 home.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forestBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jingle Win Sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lose Melody.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DialogueSound fixed.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
